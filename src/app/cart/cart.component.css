@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Dancing+Script:wght@400;600&family=Dongle:wght@700&family=Enriqueta:wght@400;600&family=Graduate&family=Habibi&family=Inknut+Antiqua:wght@300&family=Kaushan+Script&family=Lavishly+Yours&family=Marck+Script&family=Nunito+Sans:opsz@6..12&family=Satisfy&family=Signika+Negative&family=Tilt+Prism&family=Varela+Round&display=swap');
+
+.thiscart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.cart {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 170px;
+    border: 1px solid gray;
+    padding: 30px;
+
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+
+
+}
+.products{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    gap: 50px;
+    
+}
+
+.cartitems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    inline-size: 400px;
+    border-radius: 20px;
+    background-color: rgb(180, 179, 179);
+
+}
+
+.cartitems div:nth-child(1) {
+    font-size: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+
+
+}
+
+
+.cartitems div:nth-child(2) {
+    font-size: 20px;
+    color: green;
+}
+
+.cartitems div:nth-child(3) {
+    font-size: 20px;
+    color: #fff;
+}
+
+.cartitems div:nth-child(4) {
+    font-size: 20px;
+    color: red;
+}
+
+.cartitems div:nth-child(5) {
+    font-size: 20px;
+    color: #fff;
+}
+
+.cart img {
+    max-width: 300px;
+    max-height: 300px;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Quan button{
+    padding: 5px;
+
+}
+.Quan input{
+    padding: 5px;
+}
+.buy button{
+    padding: 5px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.buy button:active{
+    background-color: blue;
+
+}
+.delete button {
+    padding: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}

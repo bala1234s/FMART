@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Great+Vibes&family=Merriweather&family=Tangerine&family=Young+Serif&display=swap');
+.about{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec1{
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-image:url('../../assets/about/1.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    flex-wrap: wrap;
+    
+   
+   
+    
+   
+   
+    
+}
+.sec1 img{
+    width: 30vw;
+}
+.sec1 div{
+    color: #fff;
+    max-width: 35rem;
+    line-height: 40px;
+    font-size: 80%;
+font-family: 'Merriweather', serif;
+  
+}
+.abouttitle{
+    color: red;
+    text-align: center;
+    
+}
+
+.con1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    justify-content: space-around;
+    padding: 90px;
+    flex-wrap: wrap;
+
+}
+.con1img{
+    position: relative;
+}
+.con1img p{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffd900;
+   
+    /* backdrop-filter: blur(10); */
+
+}
+.con1img img:hover{
+    filter: blur(2px); 
+    background-size: 300px;
+   
+}
+.conp{
+    height:400px ;
+    width: 300px;   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/about/wood1.jpg');
+    
+}
+.conp:hover{
+    background-size: 800px;
+
+}
+.con1img p{
+    display: none;
+}
+.con1img:hover p{
+    display: block;
+    scale: 2;
+}
+
+
+/* .con1 :nth-child(1) :hover{
+   
+   
+} */
+.con1img img{
+    max-height: 400px;
+   
+}

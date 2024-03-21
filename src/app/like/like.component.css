@@ -1,0 +1,77 @@
+
+.thislike {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.products{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.like{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    /* border: 2px solid red; */
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    outline: 1px solid black;
+    padding:10px ;
+    border-radius: 20px;
+
+    
+
+}
+
+
+.likeitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    /* border: 2px solid red; */
+    inline-size: 400px;
+    text-align: left;
+    font-weight: bold;
+}
+.likeitems div:nth-child(1){
+    font-size: 30px;
+    color: gray;
+    
+    
+}
+.likeitems div:nth-child(2){
+    font-size: 20px;
+    color: green;
+}
+.likeitems div:nth-child(3){
+    font-size: 20px;
+    color: gray;
+}
+.likeitems div:nth-child(4){
+    font-size: 20px;
+    color: red;
+}
+.likeitems div:nth-child(5){
+    font-size: 20px;
+    color: gray;
+}
+.like img{
+    max-width: 300px;
+    max-height: 300px;
+}
+button{
+    width: 20%;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+

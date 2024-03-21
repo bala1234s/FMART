@@ -1,0 +1,10 @@
+.orders{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.order1{
+    display: flex;
+    gap: 40px;
+}

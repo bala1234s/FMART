@@ -1,0 +1,28 @@
+
+<body>
+   
+<form [formGroup]="formlogin" (ngSubmit)="login()">
+    <div>
+      
+       <div>
+       <label for="">Email</label>
+       <input type="email" placeholder="your email" formControlName="email">
+    </div>
+  
+   <div>
+       <label for="">Password</label>
+       <input type="password" placeholder="your password" formControlName="password">
+    </div>
+   
+    </div>
+    <div>
+      <button>Login</button>
+    </div>
+    <div>
+      <a routerLink="/register" routerLinkActive="navigation"><p style="color: red;"> create an account</p></a>
+    </div>
+   
+   </form>
+
+   
+   </body>

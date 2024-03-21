@@ -1,0 +1,196 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "homeselection": [
+    {
+      "title": "Wood"
+    },
+    {
+      "title": "steel"
+    },
+    {
+      "title": "plastic"
+    }
+  ],
+  "furniture": [
+    {
+      "fname": "Wood",
+      "fdetails": [
+        {
+          "title": "Solid Wood Chair",
+          "img": "../../assets/wood/wood1.jpeg",
+          "list": [
+            {
+              "name": "Wood",
+              "img1": "../../assets/wood/wood1.jpeg",
+              "imgitem": "../../assets/wood/woodchairs/woodchair1.png",
+              "titleitem": "Sal Wood Modern Wooden Chair",
+              "rating": "⭐️⭐⭐⭐⭐",
+              "MRP": "80000",
+              "discount": "20%",
+              "id": 1
+            },
+            {
+              "name": "Wood",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/woodchairs/woodchair2.jpg",
+              "titleitem": "Chair",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "90000",
+              "discount": "20%",
+              "id": 2
+            },
+            {
+              "name": "Wood",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/woodchairs/woodchair3.jpg",
+              "titleitem": "ChaStigen Sheesham Wood Dining Chair In Honey Oak Finish",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "85000",
+              "discount": "17%",
+              "id": 3
+            },
+            {
+              "name": "Wood",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/woodchairs/woodchair4.png",
+              "titleitem": "Wooden Dining Chair (Brown)",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "87000",
+              "discount": "30%",
+              "id": 4
+            }
+          ]
+        },
+        {
+          "title": "Dinning table",
+          "img": "../../assets/wood/wood2.jpg",
+          "img1": "../../assets/wood/wood3.jpeg",
+          "list": [
+            {
+              "name": "woodTable",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/woodtables/woodtable1.jpg",
+              "titleitem": "Furniture World Sheesham Wood H",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "150000",
+              "discount": "25%",
+              "id": 1
+            },
+            {
+              "name": "woodTable",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/woodtables/woodtable3.jpg",
+              "titleitem": "Mamta Decoration Sheesham Wood 6 Seater",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "150000",
+              "discount": "25%",
+              "id": 2
+            },
+            {
+              "name": "woodTable",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/wood2.jpg",
+              "titleitem": "Wooden Dining Table (Brown)",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "150000",
+              "discount": "25%",
+              "id": 3
+            },
+            {
+              "name": "woodTable",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/wood2.jpg",
+              "titleitem": "Wooden Dining Table (Brown)",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "150000",
+              "discount": "25%",
+              "id": 4
+            }
+          ]
+        },
+        {
+          "title": "Sofa",
+          "img": "../../assets/wood/wood3.jpeg"
+        }
+      ]
+    },
+    {
+      "fname": "steel",
+      "fdetails": [
+        {
+          "title": "Stainless Steel Chair",
+          "img": "../../assets/steel/steelchairs/stainchair1.jpg"
+        },
+        {
+          "title": "Stainless Steel Table",
+          "img": ""
+        },
+        {
+          "title": "",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "fname": "plastic",
+      "fdetails": [
+        {
+          "title": "",
+          "img": ""
+        },
+        {
+          "title": "",
+          "img": ""
+        }
+      ]
+    }
+  ],
+  "cart": [
+    {},
+    {
+      "name": "Wood",
+      "img1": "../../assets/wood/wood1.jpeg",
+      "imgitem": "../../assets/wood/woodchairs/woodchair1.png",
+      "titleitem": "Sal Wood Modern Wooden Chair",
+      "rating": "⭐️⭐⭐⭐⭐",
+      "MRP": "80000",
+      "discount": "20%",
+      "id": 1
+    },
+    {
+      "name": "Wood",
+      "img1": "../../assets/wood/wood2.jpg",
+      "imgitem": "../../assets/wood/woodchairs/woodchair2.jpg",
+      "titleitem": "Chair",
+      "rating": "⭐️⭐⭐⭐",
+      "MRP": "90000",
+      "discount": "20%",
+      "id": 2
+    }
+  ],
+  "footer": [
+    {
+      "title": "Corporate",
+      "help": "help",
+      "contact": "contect us",
+      "about": "about",
+      "home": "home"
+    }
+  ]
+}

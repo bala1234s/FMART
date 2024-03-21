@@ -1,0 +1,48 @@
+.a img{
+    height: 100%;
+    width: auto;
+}
+.a{
+    height: 50rem;
+    width: 50rem;
+}
+.b{
+    
+   
+    display: flex;
+    flex-direction: column;
+    /* justify-conten   t: center; */
+    /* align-items: center; */
+    gap: 30px;
+    /* display: contents; */
+}
+.b h1{
+    text-align: center;
+}
+.bg{
+    display: flex;
+    gap: 20px;
+    height: 50%;
+}
+.b span{
+    font-weight: bold;
+}
+.socialmedia img{
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+    transition: all .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);  
+}
+.socialmedia img:hover{
+    transform: scale(1.2);
+    
+}
+.b p{
+    transition: all 400ms ease-in-out;
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}

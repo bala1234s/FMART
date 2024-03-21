@@ -1,0 +1,349 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "homeselection": [
+    {
+      "title": "Wood",
+      "background_url": "../../assets/background/home/wood.jpg",
+      "homename": "Quality Wood materials"
+    },
+    {
+      "title": "steel",
+      "background_url": "../../assets/background/home/steel.jpg",
+      "homename": "Quality Steel materials"
+    },
+    {
+      "title": "plastic",
+      "background_url": "../../assets/background/home/plastic.jpg",
+      "homename": "Quality Plastic materials"
+    }
+  ],
+  "furniture": [
+    {
+      "fname": "Wood",
+      "fdetails": [
+        {
+          "title": "Solid Wood Chair",
+          "img": "../../assets/wood/wood1.jpeg",
+          "list": [
+            {
+              "name": "Wood",
+              "img1": "../../assets/wood/wood1.jpeg",
+              "imgitem": "../../assets/wood/woodchairs/woodchair1.png",
+              "titleitem": "Sal Wood Modern Wooden Chair",
+              "rating": "⭐️⭐⭐⭐⭐",
+              "MRP": "80000",
+              "fav": "true",
+              "index": 0,
+              "discount": "20%",
+              "id": 1
+            },
+            {
+              "name": "Wood",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/woodchairs/woodchair2.jpg",
+              "titleitem": "Chair",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "90000",
+              "fav": "true",
+              "discount": "20%",
+              "id": 2
+            },
+            {
+              "name": "Wood",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/woodchairs/woodchair3.jpg",
+              "titleitem": "ChaStigen Sheesham Wood Dining Chair In Honey Oak Finish",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "85000",
+              "fav": "true",
+              "discount": "17%",
+              "id": 3
+            },
+            {
+              "name": "Wood",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/woodchairs/woodchair4.png",
+              "titleitem": "Wooden Dining Chair (Brown)",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "87000",
+              "fav": "true",
+              "discount": "30%",
+              "id": 4
+            }
+          ]
+        },
+        {
+          "title": "Dinning table",
+          "img": "../../assets/wood/wood2.jpg",
+          "img1": "../../assets/wood/wood3.jpeg",
+          "list": [
+            {
+              "name": "woodTable",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/woodtables/woodtable1.jpg",
+              "titleitem": "Furniture World Sheesham Wood H",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "150000",
+              "fav": "true",
+              "discount": "25%",
+              "id": 1
+            },
+            {
+              "name": "woodTable",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/woodtables/woodtable3.jpg",
+              "titleitem": "Mamta Decoration Sheesham Wood 6 Seater",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "150000",
+              "fav": "true",
+              "discount": "25%",
+              "id": 2
+            },
+            {
+              "name": "woodTable",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/wood2.jpg",
+              "titleitem": "Wooden Dining Table (Brown)",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "150000",
+              "fav": "true",
+              "discount": "25%",
+              "id": 3
+            },
+            {
+              "name": "woodTable",
+              "img1": "../../assets/wood/wood2.jpg",
+              "imgitem": "../../assets/wood/wood2.jpg",
+              "titleitem": "Wooden Dining Table (Brown)",
+              "rating": "⭐️⭐⭐⭐",
+              "MRP": "150000",
+              "fav": "true",
+              "discount": "25%",
+              "id": 4
+            }
+          ]
+        },
+        {
+          "title": "Sofa",
+          "img": "../../assets/wood/wood3.jpeg"
+        }
+      ]
+    },
+    {
+      "fname": "steel",
+      "fdetails": [
+        {
+          "title": "Stainless Steel Chair",
+          "img": "../../assets/steel/steelchairs/stainchair1.jpg"
+        },
+        {
+          "title": "Stainless Steel Table",
+          "img": ""
+        },
+        {
+          "title": "",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "fname": "plastic",
+      "fdetails": [
+        {
+          "title": "",
+          "img": ""
+        },
+        {
+          "title": "",
+          "img": ""
+        }
+      ]
+    }
+  ],
+  "like": [
+    {
+      "img": "../../assets/wood/woodtables/woodtable1.jpg",
+      "title": "Furniture World Sheesham Wood H",
+      "rating": "⭐️⭐⭐⭐",
+      "mrp": "150000",
+      "fav": "true",
+      "discount": "25%",
+      "save": [
+        37500,
+        37500,
+        37500,
+        37500
+      ],
+      "price": 112500,
+      "email": 1
+    },
+    {
+      "img": "../../assets/wood/woodtables/woodtable3.jpg",
+      "title": "Mamta Decoration Sheesham Wood 6 Seater",
+      "rating": "⭐️⭐⭐⭐",
+      "mrp": "150000",
+      "fav": "true",
+      "discount": "25%",
+      "save": [
+        37500,
+        37500,
+        37500,
+        37500
+      ],
+      "price": 112500,
+      "email": 2
+    },
+    {
+      "img": "../../assets/wood/woodchairs/woodchair2.jpg",
+      "title": "Chair",
+      "rating": "⭐️⭐⭐⭐",
+      "mrp": "90000",
+      "fav": "true",
+      "discount": "20%",
+      "save": [
+        16000,
+        18000,
+        14450,
+        26100
+      ],
+      "price": 72000,
+      "email": 3
+    }
+  ],
+  "footer": [
+    {
+      "title": "Corporate",
+      "help": "help",
+      "contact": "contect us",
+      "about": "about",
+      "home": "home"
+    }
+  ],
+  "personaldetails": [
+    {
+      "firstname": "b",
+      "secondname": "b",
+      "email": "b@gmail.com",
+      "phone": "2345654456",
+      "password": "BBBbbb!!!111",
+      "confirm": "BBBbbb!!!111",
+      "id": 1
+    },
+    {
+      "firstname": "Gokylyklgt",
+      "secondname": "asdcf",
+      "email": "g@gmail.com",
+      "phone": "1234567898",
+      "password": "CV12qwAS!@",
+      "confirm": "12qwasZX!@",
+      "id": 2
+    },
+    {
+      "firstname": "Bala Sankar",
+      "secondname": "S",
+      "email": "bala@gmail.com",
+      "phone": "9092016471",
+      "password": "BalaSankar@2004",
+      "confirm": "BalaSankar@2004"
+    },
+    {
+      "firstname": "bala",
+      "secondname": "sankar",
+      "email": "aa@gmail.com",
+      "phone": "5484418415",
+      "password": "BalaSankar@1234",
+      "confirm": "BalaSaar@1234"
+    },
+    {
+      "firstname": "priyadharshini",
+      "secondname": "b",
+      "email": "2k21csbs40@gmail.com",
+      "phone": "9361683358",
+      "password": "Priyadhar@08",
+      "confirm": "Priyadhar@08"
+    },
+    {
+      "firstname": "kamali",
+      "secondname": "M",
+      "email": "2k22csbs23@kiot.ac.in",
+      "phone": "8122560552",
+      "password": "kiot1234@A",
+      "confirm": "kiot@1234A"
+    },
+    {
+      "firstname": "Admin",
+      "secondname": "Admin",
+      "email": "admin@gmail.com",
+      "phone": "9092016471",
+      "password": "Admin@2023",
+      "confirm": "Admin@2023"
+    },
+    {
+      "firstname": "Nav",
+      "secondname": "Nav",
+      "email": "Naveen123@gmail.com",
+      "phone": "9123456789",
+      "password": "Hello@1234",
+      "confirm": "Hello@1234"
+    },
+    {
+      "firstname": "Bala",
+      "secondname": "Sankar",
+      "email": "sankar123@gmail.com",
+      "phone": "3563536566",
+      "password": "SSSankar@1234",
+      "confirm": "SSSankar@1234"
+    },
+    {
+      "firstname": "sasi",
+      "secondname": "dharan",
+      "email": "2k22csbs@kiot.ac.in",
+      "phone": "8682846104",
+      "password": "SaSi@2024",
+      "confirm": "SaSi@2024"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "title": "Furniture World Sheesham Wood H",
+      "mrp": "150000",
+      "price": 112500,
+      "email": 1
+    },
+    {
+      "title": "Furniture World Sheesham Wood H",
+      "mrp": "150000",
+      "price": 112500,
+      "email": 2
+    },
+    {
+      "title": "Wooden Dining Table (Brown)",
+      "mrp": "150000",
+      "price": 112500,
+      "email": 3
+    },
+    {
+      "title": "Wooden Dining Table (Brown)",
+      "mrp": "150000",
+      "price": 112500,
+      "email": 4
+    }
+  ]
+}

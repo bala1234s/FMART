@@ -1,0 +1,78 @@
+<body>
+    
+
+<form [formGroup]="formvalid" (ngSubmit)="formvalid.valid && submit()">
+ <div>
+
+    <div>
+    <label for="">First Name</label>
+    <input type="text" placeholder="firstname" formControlName="firstname">
+    <br>
+    <small style="color: red;" *ngIf="formvalid.controls['firstname'].errors?.['required'] && formvalid.controls['firstname'].dirty">your name should not be empty</small>
+</div>
+
+    <div>
+    <label for="">second Name</label>
+    <input type="text" placeholder="secondname" formControlName="secondname" >
+    <br>
+    <small style="color: red;" *ngIf="formvalid.controls['secondname'].errors?.['required'] && formvalid.controls['secondname'].dirty">your name should not be empty</small>
+</div>
+
+    <div>
+    <label for="">Email</label>
+    <input type="email" placeholder="email" formControlName="email" >
+    <br>
+    <small style="color: red;" *ngIf="formvalid.controls['email'].errors?.['required'] && formvalid.controls['email'].dirty">your email is empty</small>
+    <small style="color: red;" *ngIf="formvalid.controls['email'].errors?.['pattern']">email should contain '@' and .com</small>
+</div>
+
+
+
+    <div>
+    <label for="">Phone</label>
+    <input type="tel" placeholder="phone number" formControlName="phone" maxlength="10">
+    <br>
+    <small style="color: red;" *ngIf="formvalid.controls['phone'].errors?.['required'] && formvalid.controls['phone'].dirty">your phone numberis empty</small>
+    <small style="color: red;" *ngIf="formvalid.controls['phone'].errors?.['pattern']"> your phone number should contain 10 digits</small>
+</div>
+
+
+
+
+
+    <div>
+    <label for="">Password</label>
+    <input type="password" placeholder=" password" formControlName="password">
+    <br>    
+    <small style="color: red;" *ngIf="formvalid.controls['password'].errors?.['required'] && formvalid.controls['password'].dirty"> Your password is empty</small>
+    <small style="color: red;" *ngIf="formvalid.controls['password'].errors?.['pattern']">You should give strong password </small>
+</div>
+
+<div>
+    <label for="">Confirm Password</label>
+    <input type="password" placeholder="confirm password" formControlName="confirm">
+     <small style="color: red;" *ngIf="formvalid.controls['confirm'].errors?.['required'] && formvalid.controls['confirm'].dirty"> Your password is empty</small>
+    <small style="color: red;" *ngIf="formvalid.controls['confirm'].errors?.['pattern']">You should give strong password </small>
+    <br>
+    <!-- <small style="color: red;"
+        *ngIf="formvalid.controls['password'].errors?.['required'] && formvalid.controls['password'].dirty"> Your
+        password is empty</small>
+    <small style="color: red;" *ngIf="formvalid.controls['password'].errors?.['pattern']">You should give strong
+        password </small> -->
+</div>
+
+ </div>
+  <div > 
+    <button  id="button">Submit</button>
+</div>
+</form>
+
+<div class="alert" *ngIf="alert">
+    <div class="notific">
+    Register Successfully
+    <i class="fa-solid fa-check" style="color: #5a8c5d;"></i>
+    </div>
+
+    <div>Login</div>
+</div>
+</body>

@@ -1,0 +1,18 @@
+<nav>
+    <div class="navitems">
+    <a routerLink="" routerLinkActive="navigation" [routerLinkActiveOptions]="{exact:true}">Home</a>
+    <a routerLink="aboutus" routerLinkActive="navigation">About</a>
+    <a  routerLink="contact" routerLinkActive="navigation">Contact us</a>
+    <!-- <a routerLink="help" routerLinkActive="navigation">Help</a> -->
+</div>
+<div class="navitems-1">
+    <div class="navitems-2" *ngIf="checklog">
+        <button routerLink="login">Login</button>
+    </div>
+    <div class="navitems-2" *ngIf="logout" (click)="logOut()">
+         <button >logout</button>
+    </div>
+    
+</div>
+</nav>
+

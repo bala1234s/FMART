@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
+}
+.card{
+    padding: 10px;
+    /* outline: 1px solid black; */
+    margin: 30px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
+}
+.cart i{
+    font-size: 30px;
+    
+    
+}
+.cart{
+            
+    margin-right: 2px;
+    position: absolute;
+    right: 1px;
+   
+    
+}
+.fav{
+    position: relative;
+}
+
+
+img{
+    height: 250px ;
+    margin-left: 30px;
+    
+}
+.listdata{
+    padding: 40px;
+   
+    display: flex;
+    column-gap: 130px;
+    outline: 1px solid black;
+    gap: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+
+
+
+}
+h2{
+    color: #000;
+}
+.rate th{
+    padding-left: 10px;
+    color: green;
+    
+}
+.mrp th {
+    padding-left:10px ;
+    color: gray;
+}
+.discount th{
+    padding-left: 10px;
+    color: red;
+}
+.offer th{
+    padding-left: 10px;
+    color: gray;
+}
+.itemname{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    width: 100%;
+    gap: 10px;
+    font-size: 20px;
+    inline-size: 400px;
+   
+}
+.title{
+    text-align: left;
+    color: #000;
+}
+.htmlcolor{
+    color: #dd277f;
+}
+.buycart{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px ;
+    gap: 90px;
+    
+}
+.buycart button{
+    background-color: rgb(230, 107, 7);
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+
+}
+.cart i{
+    font-size: 1.6em;
+    color: #db0075;
+    cursor: pointer;
+
+}
+.productlist{
+    padding: 30px;
+}

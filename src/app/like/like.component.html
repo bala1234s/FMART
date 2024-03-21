@@ -1,0 +1,21 @@
+<div class="thislike">
+    <h1>This is Like page</h1>
+
+</div>
+<div class="products">
+    <div class="like" *ngFor="let item of liked">
+        
+        <div><img src="{{item.img}}" alt=""></div>
+        <div class="likeitems">
+         <div><p>{{item.title}}</p></div>
+        <div><p>Rating: {{item.rating}}</p></div>
+        <div><p>Rs.{{item.mrp | currency:'INR'}}</p></div>
+        <div><p>Discount {{item.discount}}</p></div>
+        <div><p>Price:{{item.price}}</p></div>
+        <div><p></p></div>
+        <button (click)="deletelike(this.item.title)">Delete</button>
+            
+    </div>
+    
+    </div>
+</div>

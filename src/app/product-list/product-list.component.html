@@ -1,0 +1,53 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div class="productlist">
+    <div class="card" >
+        <div>
+        <div class="listdata" *ngFor="let item of itemlist;let index=index">
+            <img src="{{item.imgitem}}" alt="{{item.titleitem}}"> 
+            
+                <div class="itemname">
+                    <div class="title" style="color: #000;">
+                    <h2>{{item.titleitem}}</h2>
+                    </div>
+
+                    <div class="rate">
+                    <th>Rating</th><th>{{item.rating}}</th> 
+                    </div>
+
+                
+                     <div class="mrp">
+                        
+                      <th>Rs.   </th><th>{{item.MRP | currency:'INR'}}</th> 
+                    </div>
+                    <div class="discount">
+
+                        <th>Discount</th><th>{{item.discount}}</th>
+                    </div>
+                    <div class="offer">
+                        <th>Today's Offer</th> <th>{{listarray[index]}} 
+                            <span style="color: white; font-size: 14px; background-color: green;padding: 3px;border-radius: 4px;">save {{saveprice[index]}}</span></th>
+                    </div>
+                    <div class="buycart">
+                   
+                    <button id="{{'cart'+index}}" (click)="pushcart(index,this.item.titleitem,this.item)">Add to cart</button>
+                </div>
+                    </div>
+                    <div class="fav">
+                    <div class="cart" (click)="favourites(index,this.item.titleitem,this.item)">
+                        <!-- <img src="../../assets/heartimg/unfill.png" alt="" id="img"> -->
+                      
+                        <i (click)="showcart(index)" id="{{'bala'+index}}" [ngClass]="isFav[index]?'fa-solid fa-heart':'fa-regular fa-heart'"></i>
+                        <!-- <img src="../../assets/icons8-heart-50.png" alt="" id="image" (click)="showcart()"> -->
+                    </div>
+                </div>
+    
+                    </div>
+                    
+                </div>
+                    
+                    
+    </div>
+    
+</div>

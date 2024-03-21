@@ -1,0 +1,83 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Kaushan+Script&family=Satisfy&family=Signika+Negative&family=Tilt+Prism&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+img {
+    height: 100px;
+    width: auto;
+}
+h1{
+  
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Satisfy', cursive;
+    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Tilt Prism', cursive;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    block-size: 50px;
+    padding-top: 10px;
+
+}
+i{
+    font-size: 34px;
+    padding-top: 10px;
+}
+.title h1{
+    color: brown;
+    font-family: "Jacques Francois Shadow", serif;
+    
+}
+.home{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    
+}
+.profileicon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.details{
+    
+    display: flex;
+    gap: 20px;
+}
+.home input{
+    
+   
+    border-radius:20px ;
+    text-align: center;
+   block-size: 30px;
+}
+
+.name {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 12px;
+    box-shadow: 0px 10px 16px 10px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    width: auto;
+}
+
+.profileicon:hover .name {
+    display: block;
+    right: 5px;
+}
+/* .profileicon:hover:nth-child(3){
+    margin-right: 50px;
+} */
