@@ -246,7 +246,8 @@ export class CartComponent {
       price:price
     }
 
-    this.http.post<any>('http://localhost:3001/orders', order).subscribe(() => {
+    this.http.post<any>('http://localhost:3001/postorder', order).subscribe((get) => {
+      console.log(get);
       alert("Your Order Placed Successfully");
     })
   }

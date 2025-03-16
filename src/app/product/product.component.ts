@@ -1,12 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+declare var AOS: any;
 
 @Component({
   selector: 'app-wood',
   templateUrl: './product.component.html',
   styleUrls: ['./product.component.css']
 })
-export class ProductComponent {
+export class ProductComponent implements OnInit{
   product:any;
   title:any="";
   img:any=""; 
@@ -39,6 +40,10 @@ export class ProductComponent {
     
        
     });
+  }
+
+  ngOnInit(): void {
+    AOS.init({});
   }
 
 

@@ -71,12 +71,12 @@ font-family: 'Merriweather', serif;
    
 }
 .conp{
-    height:400px ;
+    /* height:400px ;
     width: 300px;   
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../../assets/about/wood1.jpg');
-    
+     */
 }
 .conp:hover{
     background-size: 800px;

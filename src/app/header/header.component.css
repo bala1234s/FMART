@@ -6,6 +6,10 @@
 img {
     height: 100px;
     width: auto;
+    cursor: pointer;
+}
+*{
+    z-index: 3;
 }
 h1{
   
@@ -18,7 +22,11 @@ h1{
     text-align: center;
     block-size: 50px;
     padding-top: 10px;
+    cursor: pointer;
 
+}
+.fa-user{
+   
 }
 i{
     font-size: 34px;

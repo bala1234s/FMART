@@ -22,7 +22,7 @@ export class RegisterComponent {
   alert: boolean = false;
   postValue: any;
 
-
+  
 
 
 
@@ -66,8 +66,8 @@ export class RegisterComponent {
         this.http.post<any>('http://localhost:3001/postpersonaldetails',this.postValue).subscribe((post) => { 
           console.log(post);
           this.button = document.getElementById('button');
-       this.button.style.backgroundColor = 'green';
-       this.alert = true;
+          this.button.style.backgroundColor = 'green';
+          this.alert = true;
         
 
           
@@ -75,7 +75,7 @@ export class RegisterComponent {
       }
 
         
-    })
+    }) 
     
 
     

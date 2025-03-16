@@ -8,14 +8,16 @@
 <section class="sec1" >
     
     <div class="dashboard" >
-    <a  class="wood" *ngFor="let item of data;let index=index" (click)="itemsname(this.item.title)"> {{item.title}}</a>
+    <a  class="wood" *ngFor="let item of data;let index=index" (click)="itemsname(this.item.title)"  data-aos="zoom-in-down" data-aos-duration="1900"> {{item.title}}</a>
     </div>
 </section>
 <br><br>
 
 
 <section class="sec2" >
-    <div class="product" *ngFor="let items of data ; let ind=index" [ngStyle]="{'background-image':'url('+ items.background_url +')'}">
+    <div  class="product" *ngFor="let items of data ; let ind=index" [ngStyle]="{'background-image':'url('+ items.background_url +')'}" data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
        <div> <h2>{{this.items.homename}}</h2></div>
         <div class="shownow"><a href="#"><p>shop now</p></a></div>
     </div>
@@ -25,7 +27,8 @@
 
 <section class="sec3">
     
-<div><h1>Quality is the cornerstone of every offering in a reputable furniture store</h1></div>
+<div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000"><h1>Quality is the cornerstone of every offering in a reputable furniture store</h1></div>
 <div><h2>See More</h2></div>
 
 

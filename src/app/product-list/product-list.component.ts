@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { CartdataService } from '../cartdata.service';
+declare var AOS: any;
 
 
 
@@ -9,7 +10,7 @@ import { CartdataService } from '../cartdata.service';
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css']
 })
-export class ProductListComponent{
+export class ProductListComponent implements OnInit{
   title:any;
   details:any;
   productdetails:any;
@@ -58,6 +59,10 @@ export class ProductListComponent{
   addtocart: any;
   cartIndex: any = [];
   cartadded: any = [];
+
+  ngOnInit(): void {
+    AOS.init({});
+  }
   
   
 

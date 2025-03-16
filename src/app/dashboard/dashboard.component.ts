@@ -1,18 +1,25 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 
+
+declare let AOS: any;
 @Component({
   selector: 'app-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-export class DashboardComponent {
+export class DashboardComponent implements OnInit{
   data: any ;
   sec2backimg: any=[];
   i: any;
   datalength: any;
   backgroundchange: any;
+
+  
+  ngOnInit(): void {
+      AOS.init({})
+  }
 
   constructor (private http:HttpClient,private router:Router){
     http.get<any>("http://localhost:3001/homeselection").subscribe((homeselection)=>{

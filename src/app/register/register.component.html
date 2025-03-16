@@ -22,8 +22,8 @@
     <label for="">Email</label>
     <input type="email" placeholder="email" formControlName="email" >
     <br>
-    <small style="color: red;" *ngIf="formvalid.controls['email'].errors?.['required'] && formvalid.controls['email'].dirty">your email is empty</small>
-    <small style="color: red;" *ngIf="formvalid.controls['email'].errors?.['pattern']">email should contain '@' and .com</small>
+    <small style="color: red;" *ngIf="formvalid.controls['email'].errors?.['required'] && formvalid.controls['email'].dirty">please enter your email is empty</small>
+    <small style="color: red;" *ngIf="formvalid.controls['email'].errors?.['pattern']">Email should contain '@' and .com</small>
 </div>
 
 

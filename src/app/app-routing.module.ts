@@ -6,7 +6,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { ProductComponent } from './product/product.component';
-import { LoginComponent } from './login/login.component';
+import {
+  LoginComponent
+}
+from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { LikeComponent } from './like/like.component';
 import { loginrouteGuard } from './loginroute.guard';

@@ -22,7 +22,7 @@
 .bg{
     display: flex;
     gap: 20px;
-    height: 50%;
+    height: 82vh;
 }
 .b span{
     font-weight: bold;

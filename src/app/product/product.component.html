@@ -7,7 +7,7 @@
 <h1>{{furnituredata}}</h1>
 <div  class="wood">
     
-    <div class="card" *ngFor="let image of furnitureimage;let index=index">
+    <div class="card" *ngFor="let image of furnitureimage;let index=index" data-aos="zoom-in" data-aos-duration="2000">
         <img src="{{image.img}}" alt="">
         <h4>{{image.title}}</h4>
         <a routerLink="/productlist" (click)="productDetails(this.index)"><button>Details</button></a>
